@@ -69,12 +69,18 @@
             color: #555;
         }
         .publication {
-            margin-bottom: 1.8rem;
+            margin-bottom: 2rem;
         }
         .pub-title {
             font-weight: bold;
-            font-size: 1.1rem;
+            font-size: 1.15rem;
             margin-bottom: 0.2rem;
+        }
+        .pub-title a {
+            color: #333;
+        }
+        .pub-title a:hover {
+            color: #0366d6;
         }
         .pub-authors {
             color: #444;
@@ -88,12 +94,20 @@
         .tags span {
             background: #e1f0fe;
             color: #0366d6;
-            padding: 0.2rem 0.5rem;
+            padding: 0.2rem 0.6rem;
             border-radius: 4px;
             font-size: 0.85rem;
             margin-right: 0.5rem;
             display: inline-block;
             margin-bottom: 0.3rem;
+        }
+        .link-tag {
+            background: #f1f8ff !important;
+            border: 1px solid #c8e1ff;
+            font-weight: 500;
+        }
+        .link-tag a {
+            color: #0366d6;
         }
         @media (max-width: 600px) {
             .header-container {
@@ -112,24 +126,23 @@
         <img src="profile.jpg" alt="Xinyu Shao" class="profile-img">
         <div class="header-info">
             <h1>Xinyu Shao (邵新宇)</h1>
-            <p>Ph.D. Student in Electronic Information, Tsinghua University (SIGS)</p>
-            <p>AI Algorithm Researcher at Huawei 2012 Lab</p>
+            <p>Ph.D. Student, Tsinghua University (SIGS)</p>
+            <p>Embodied-AI Algorithm Researcher at Huawei 2012 Lab</p>
             <div class="links">
                 <a href="mailto:xinyu_shao0419@163.com">xinyu_shao0419@163.com</a> &nbsp;|&nbsp; 
-                <a href="[Your Google Scholar Link]">Google Scholar</a> &nbsp;|&nbsp; 
-                <a href="[Your GitHub Link]">GitHub</a>
+                <a href="https://scholar.google.com/citations?user=i7L7Gd4AAAAJ&hl=en&authuser=2" target="_blank">Google Scholar</a> &nbsp;|&nbsp; 
+                <a href="https://github.com/xyshao23" target="_blank">GitHub</a>
             </div>
         </div>
     </div>
 
     <div class="content">
         <h2>About Me</h2>
-        <p>I am currently a Ph.D. student (2023 intake) in Electronic Information at Tsinghua University Shenzhen International Graduate School (SIGS). Simultaneously, I work as an AI Algorithm Researcher at the Central Software Institute, Huawei 2012 Lab.</p>
-        <p>My research lies at the intersection of <strong>Embodied AI</strong> and <strong>Robotics</strong>. I am particularly driven by the challenge of moving beyond traditional end-to-end VLA models by exploring <strong>decoupled perception-control</strong> architectures, generative models for physical decision-making, and pushing the boundaries of imitation learning in low-data regimes. I have extensive experience in building robust pipelines for long-horizon complex robotic manipulations using high-framerate HDF5 video streams.</p>
+        <p>I am a full-time Engineering Ph.D. student (2023 intake) at Tsinghua University (SIGS), jointly trained by Tsinghua and Huawei. I am fortunate to be advised by Prof. Xiu Li at the Institute of Data and Information.</p>
+        <p>My research lies at the intersection of <strong>Embodied AI</strong> and <strong>Robotics</strong>, with a primary focus on <strong>Generative Models</strong>, <strong>Vision-Language-Action (VLA) models</strong>, and <strong>World Models</strong>. I am particularly driven by the challenge of moving beyond traditional end-to-end VLA models by exploring decoupled perception-control architectures and pushing the boundaries of imitation learning in low-data regimes. Currently, I am deeply engaged in building robust pipelines for long-horizon complex robotic manipulations, and rethinking embodied representations by leveraging Flow Matching and Velocity Fields as zero-shot kinematic priors.</p>
 
         <h2>Recent News</h2>
         <ul class="news-list">
-            <li><span class="date-badge">[Apr 2026]</span> Fully dedicated to our new work on <em>Flow Matching Vector Fields as Zero-Shot Kinematic Priors</em>. Aiming for <strong>NeurIPS 2026</strong>!</li>
             <li><span class="date-badge">[Sep 2024]</span> Joined Huawei 2012 Lab (Central Software Institute) to work on the "Network Brain" embodied intelligence project.</li>
             <li><span class="date-badge">[Sep 2023]</span> Started my Ph.D. journey at Tsinghua University.</li>
         </ul>
@@ -146,37 +159,31 @@
         <h2>Publications & Preprints</h2>
         
         <div class="publication">
-            <div class="pub-title">Rethinking Embodied Representation: Flow Matching Vector Fields as Zero-Shot Kinematic Priors</div>
-            <div class="pub-authors"><strong>Xinyu Shao</strong>, et al.</div>
-            <div class="pub-venue">In Preparation for NeurIPS 2026</div>
-            <div class="tags">
-                <span>Embodied AI</span> <span>Velocity Fields</span> <span>Flow Matching</span>
-            </div>
-        </div>
-
-        <div class="publication">
-            <div class="pub-title">Decoupling Semantics and Geometric Grounding: Spatial Visual Prompts for Language-Conditioned Imitation Learning</div>
-            <div class="pub-authors"><strong>Xinyu Shao</strong>, et al.</div>
-            <div class="pub-venue">Under Review at IROS 2026</div>
-            <div class="tags">
-                <span>Imitation Learning</span> <span>Spatial Perception</span>
-            </div>
-        </div>
-
-        <div class="publication">
-            <div class="pub-title">More than A Point: Capturing Uncertainty with Adaptive Affordance Heatmaps for Spatial Grounding in Robotic Tasks</div>
+            <div class="pub-title"><a href="https://arxiv.org/abs/2510.10912" target="_blank">More than A Point: Capturing Uncertainty with Adaptive Affordance Heatmaps for Spatial Grounding in Robotic Tasks</a></div>
             <div class="pub-authors"><strong>Xinyu Shao</strong>, et al.</div>
             <div class="pub-venue">Under Review at IEEE Robotics and Automation Letters (RA-L)</div>
             <div class="tags">
-                <span>Dexterous Manipulation</span> <span>Pose Planning</span>
+                <span class="link-tag"><a href="https://arxiv.org/abs/2510.10912" target="_blank">[arXiv]</a></span>
+                <span>Dexterous Manipulation</span> <span>Pose Planning</span> 
             </div>
         </div>
 
         <div class="publication">
-            <div class="pub-title">Generative Models for Physical Decision Making: A Unified Taxonomy</div>
+            <div class="pub-title"><a href="https://arxiv.org/abs/2511.00833" target="_blank">Linear Differential Vision Transformer: Learning Visual Contrasts via Pairwise Differentials</a></div>
+            <div class="pub-authors"><strong>Xinyu Shao</strong>, et al.</div>
+            <div class="pub-venue">arXiv preprint, 2025</div>
+            <div class="tags">
+                <span class="link-tag"><a href="https://arxiv.org/abs/2511.00833" target="_blank">[arXiv]</a></span>
+                <span>Vision Transformer</span> <span>Representation Learning</span>
+            </div>
+        </div>
+
+        <div class="publication">
+            <div class="pub-title"><a href="https://arxiv.org/abs/2502.17100" target="_blank">Generative Models in Decision Making: A Survey</a></div>
             <div class="pub-authors"><strong>Xinyu Shao</strong>, et al.</div>
             <div class="pub-venue">Under Review at IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</div>
             <div class="tags">
+                <span class="link-tag"><a href="https://arxiv.org/abs/2502.17100" target="_blank">[arXiv]</a></span>
                 <span>Survey</span> <span>Generative Models</span> <span>Decision Making</span>
             </div>
         </div>
