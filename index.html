@@ -3,218 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xinyu Shao - Personal Homepage</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 2rem;
-            background-color: #fafafa;
-        }
-        a {
-            color: #0366d6;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .header-container {
-            display: flex;
-            align-items: center;
-            margin-bottom: 3rem;
-            border-bottom: 1px solid #eaeaea;
-            padding-bottom: 2rem;
-        }
-        .profile-img {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-right: 2rem;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        .header-info h1 {
-            margin: 0 0 0.5rem 0;
-            font-size: 2.5rem;
-        }
-        .header-info p {
-            margin: 0.2rem 0;
-            font-size: 1.1rem;
-            color: #555;
-        }
-        .links {
-            margin-top: 1rem;
-            font-weight: bold;
-        }
-        h2 {
-            font-size: 1.5rem;
-            border-bottom: 2px solid #333;
-            padding-bottom: 0.3rem;
-            margin-top: 2.5rem;
-        }
-        .news-list, .edu-list, .exp-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        .news-list li, .edu-list li, .exp-list li {
-            margin-bottom: 1rem;
-        }
-        .date-badge {
-            display: inline-block;
-            width: 110px;
-            font-weight: bold;
-            color: #555;
-        }
-        .publication {
-            margin-bottom: 2rem;
-        }
-        .pub-title {
-            font-weight: bold;
-            font-size: 1.15rem;
-            margin-bottom: 0.2rem;
-        }
-        .pub-title a {
-            color: #333;
-        }
-        .pub-title a:hover {
-            color: #0366d6;
-        }
-        .pub-authors {
-            color: #444;
-            margin-bottom: 0.2rem;
-        }
-        .pub-venue {
-            font-style: italic;
-            color: #666;
-            margin-bottom: 0.5rem;
-        }
-        .tags span {
-            background: #e1f0fe;
-            color: #0366d6;
-            padding: 0.2rem 0.6rem;
-            border-radius: 4px;
-            font-size: 0.85rem;
-            margin-right: 0.5rem;
-            display: inline-block;
-            margin-bottom: 0.3rem;
-        }
-        .link-tag {
-            background: #f1f8ff !important;
-            border: 1px solid #c8e1ff;
-            font-weight: 500;
-        }
-        .link-tag a {
-            color: #0366d6;
-        }
-        @media (max-width: 600px) {
-            .header-container {
-                flex-direction: column;
-                text-align: center;
-            }
-            .profile-img {
-                margin: 0 0 1.5rem 0;
-            }
-        }
-    </style>
+    <meta name="description" content="Xinyu Shao is a Ph.D. student at Tsinghua University working on embodied AI, robot learning, VLA policies, and video world models.">
+    <title>Xinyu Shao | Embodied AI &amp; Robot Learning</title>
+    <link rel="canonical" href="https://xyshao23.github.io/">
+    <link rel="alternate" hreflang="en" href="https://xyshao23.github.io/">
+    <link rel="alternate" hreflang="zh-CN" href="https://xyshao23.github.io/zh.html">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <div class="header-container">
-        <img src="profile.jpg" alt="Xinyu Shao" class="profile-img">
-        <div class="header-info">
-            <h1>Xinyu Shao (邵新宇)</h1>
-            <p>Ph.D. Student, Tsinghua University (SIGS)</p>
-            <p>Embodied AI Algorithm Researcher at Huawei 2012 Lab</p>
-            <div class="links">
-                <a href="mailto:xinyu_shao0419@163.com">xinyu_shao0419@163.com</a> &nbsp;|&nbsp; 
-                <a href="https://scholar.google.com/citations?user=i7L7Gd4AAAAJ&hl=en&authuser=2" target="_blank">Google Scholar</a> &nbsp;|&nbsp; 
-                <a href="https://github.com/xyshao23" target="_blank">GitHub</a>
+    <div class="site-shell">
+        <header>
+            <div class="topbar">
+                <a class="brand" href="index.html">Xinyu Shao</a>
+                <nav class="top-nav" aria-label="Primary navigation">
+                    <a href="#experience">Experience</a>
+                    <a href="#publications">Publications</a>
+                    <a href="#education">Education</a>
+                    <span class="language-switch" aria-label="Language switch">
+                        <span class="active" aria-current="page">English</span>
+                        <a href="zh.html" lang="zh-CN">中文</a>
+                    </span>
+                </nav>
             </div>
-        </div>
+
+            <div class="hero">
+                <img src="profile.jpg" alt="Portrait of Xinyu Shao" class="profile-img">
+                <div>
+                    <p class="eyebrow">Embodied AI · Robot Learning · Generative Models</p>
+                    <h1>Xinyu Shao <span lang="zh-CN">邵新宇</span></h1>
+                    <p class="role-line">Ph.D. Student at Tsinghua University · Embodied AI Research Intern at Huawei 2012 Lab</p>
+                    <p class="hero-summary">
+                        I study data-efficient robot learning, with a focus on vision-language-action policies, spatial grounding, offline reinforcement learning, and reusable representations from frozen video world models. My work spans algorithm design, large-scale simulation, and closed-loop deployment on real robots.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:shaoxy23@mails.tsinghua.edu.cn">shaoxy23@mails.tsinghua.edu.cn</a>
+                        <a href="https://scholar.google.com/citations?user=i7L7Gd4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+                        <a href="https://github.com/xyshao23" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main id="main-content">
+            <section class="section" aria-labelledby="about-heading">
+                <div class="section-heading">
+                    <h2 id="about-heading">Research Profile</h2>
+                    <span class="section-kicker">Tsinghua SIGS · Huawei 2012 Lab</span>
+                </div>
+                <p>
+                    I am a Ph.D. student in Electronic Information at Tsinghua University (SIGS), advised by Prof. Xiu Li. My research connects pretrained generative models with physical decision making: grounding language into actionable spatial representations, improving diffusion-based policies under limited demonstrations, and extracting compact task-conditioned priors from frozen video models.
+                </p>
+            </section>
+
+            <section class="section" aria-labelledby="news-heading">
+                <div class="section-heading">
+                    <h2 id="news-heading">Recent News</h2>
+                </div>
+                <ul class="news-list">
+                    <li><span class="date-badge">Sep 2026</span><span><strong>More than A Point</strong> was accepted to CoRL 2026.</span></li>
+                    <li><span class="date-badge">Sep 2026</span><span>Submitted <strong>LIP</strong> to ICRA 2027 and <strong>MATS</strong> / <strong>ResCue</strong> to ICASSP 2027.</span></li>
+                    <li><span class="date-badge">Sep 2023</span><span>Started my Ph.D. study at Tsinghua University.</span></li>
+                </ul>
+            </section>
+
+            <section class="section" id="experience" aria-labelledby="experience-heading">
+                <div class="section-heading">
+                    <h2 id="experience-heading">Research Experience</h2>
+                    <span class="section-kicker">Real-world manipulation · Policy learning</span>
+                </div>
+                <ul class="experience-list">
+                    <li class="experience-card">
+                        <div class="experience-head">
+                            <h3>Embodied AI Algorithm Research Intern</h3>
+                            <time datetime="2025-08">Aug 2025 – Present</time>
+                        </div>
+                        <p class="organization">Large Model Algorithm Lab, Huawei 2012 Lab</p>
+                        <ul class="detail-list">
+                            <li>Collected, cleaned, annotated, and trained on <strong>2,000 real-world trajectories across five tasks</strong> on the ALOHA bimanual platform; adapted OpenVLA, π<sub>0</sub>, and π<sub>0.5</sub> fine-tuning pipelines.</li>
+                            <li>Developed an offline reinforcement fine-tuning pipeline using SAM2/DINO-based cloth-coverage rewards and <strong>77 human-intervention trajectories</strong>, improving real-world cloth-flattening success from <strong>30% to 65%</strong>.</li>
+                            <li>Built a single-step latent interaction prior from a frozen Wan 2.2 video model and integrated eight compressed LIP tokens into downstream policies. Evaluation reached <strong>90.6% on LIBERO</strong> and <strong>65.7% across 50 RoboTwin 2.0 tasks</strong>.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="publications" aria-labelledby="publications-heading">
+                <div class="section-heading">
+                    <h2 id="publications-heading">Selected Publications</h2>
+                    <span class="section-kicker">First-author work listed first</span>
+                </div>
+                <div class="publication-list">
+                    <article class="publication featured">
+                        <h3 class="pub-title"><a href="https://arxiv.org/abs/2510.10912" target="_blank" rel="noopener noreferrer">More than A Point: Modeling Spatial Uncertainty with Adaptive Affordance Heatmaps for Robotic Manipulation</a></h3>
+                        <p class="pub-meta"><strong>Xinyu Shao</strong>, et al. <span class="status accepted">CoRL 2026 · Accepted</span></p>
+                        <p class="pub-description">Introduces adaptive affordance heatmaps for continuous target-region and spatial-uncertainty modeling. The data pipeline covers Open X-Embodiment trajectories; evaluation spans four grounding benchmarks and achieves <strong>82% success</strong> in real-world manipulation.</p>
+                        <div class="tags"><a class="tag link" href="https://arxiv.org/abs/2510.10912" target="_blank" rel="noopener noreferrer">arXiv</a><span class="tag">Spatial Grounding</span><span class="tag">Affordance</span><span class="tag">Uncertainty</span></div>
+                    </article>
+
+                    <article class="publication">
+                        <h3 class="pub-title">LIP: A Single-Step Latent Interaction Prior from Frozen Video World Models for Robot Manipulation</h3>
+                        <p class="pub-meta"><strong>Xinyu Shao</strong>, et al. <span class="status">ICRA 2027 · Under Review</span></p>
+                        <p class="pub-description">Exposes the initial conditional response of a frozen flow-matching video model at the noise endpoint and compresses it into eight LIP tokens, without future-frame generation, action prediction, or video-backbone updates.</p>
+                        <div class="tags"><span class="tag">Video World Models</span><span class="tag">Flow Matching</span><span class="tag">Robot Policy</span></div>
+                    </article>
+
+                    <article class="publication">
+                        <h3 class="pub-title">MATS: Multi-Scale Action Transition Supervision for Diffusion Policy</h3>
+                        <p class="pub-meta"><strong>Xinyu Shao</strong>, et al. <span class="status">ICASSP 2027 · Under Review</span></p>
+                        <p class="pub-description">Adds multi-scale transition supervision to Diffusion Policy while preserving its architecture and inference procedure, improving LIBERO single-view success from <strong>71.73% to 86.70%</strong>.</p>
+                        <div class="tags"><span class="tag">Diffusion Policy</span><span class="tag">Action Chunks</span><span class="tag">Temporal Supervision</span></div>
+                    </article>
+
+                    <article class="publication">
+                        <h3 class="pub-title">ResCue: Residual Spatial Cueing for Language-Conditioned Imitation Learning</h3>
+                        <p class="pub-meta"><strong>Xinyu Shao</strong>, et al. <span class="status">ICASSP 2027 · Under Review</span></p>
+                        <p class="pub-description">Injects independently encoded target masks into spatial RGB features through residual fusion. ResCue achieves <strong>56.5%</strong> average success across 15 simulated tasks and <strong>60.0%</strong> across three real-world bimanual tasks.</p>
+                        <div class="tags"><span class="tag">Language Conditioning</span><span class="tag">Imitation Learning</span><span class="tag">Spatial Cueing</span></div>
+                    </article>
+
+                    <article class="publication">
+                        <h3 class="pub-title"><a href="https://arxiv.org/abs/2502.17100" target="_blank" rel="noopener noreferrer">Generative Models for Physical Decision Making: A Unified Taxonomy</a></h3>
+                        <p class="pub-meta"><strong>Xinyu Shao</strong>, et al. <span class="status">IEEE TNNLS · Under Review</span></p>
+                        <p class="pub-description">Develops a unified taxonomy of generative modeling paradigms for imitation learning, reinforcement learning, robot planning, and closed-loop physical decision making.</p>
+                        <div class="tags"><a class="tag link" href="https://arxiv.org/abs/2502.17100" target="_blank" rel="noopener noreferrer">arXiv</a><span class="tag">Survey</span><span class="tag">Generative Models</span><span class="tag">Decision Making</span></div>
+                    </article>
+
+                    <article class="publication">
+                        <h3 class="pub-title"><a href="https://arxiv.org/abs/2511.00833" target="_blank" rel="noopener noreferrer">Linear Differential Vision Transformer: Learning Visual Contrasts via Pairwise Differentials</a></h3>
+                        <p class="pub-meta"><strong>Xinyu Shao</strong>, et al. <span class="status accepted">NeurIPS 2025 · Accepted</span></p>
+                        <p class="pub-description">Studies pairwise differential representations for visual contrast learning in Vision Transformers.</p>
+                        <div class="tags"><a class="tag link" href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119578" target="_blank" rel="noopener noreferrer">NeurIPS</a><span class="tag">Vision Transformer</span><span class="tag">Representation Learning</span></div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section" id="education" aria-labelledby="education-heading">
+                <div class="section-heading">
+                    <h2 id="education-heading">Education</h2>
+                </div>
+                <ul class="education-list">
+                    <li class="education-card">
+                        <div class="education-head">
+                            <h3>Ph.D. Student in Electronic Information</h3>
+                            <time datetime="2023-09">Sep 2023 – Present</time>
+                        </div>
+                        <p>Tsinghua University, Shenzhen International Graduate School · GPA 3.86/4.0</p>
+                        <p>Tsinghua University Comprehensive Scholarship, Second Prize</p>
+                    </li>
+                    <li class="education-card">
+                        <div class="education-head">
+                            <h3>B.Eng. in Information Engineering, Honors Program</h3>
+                            <time>Sep 2019 – Jun 2023</time>
+                        </div>
+                        <p>Nanjing University of Aeronautics and Astronautics · GPA 4.3/5.0</p>
+                        <p>Outstanding Graduate · Alumni Scholarship</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>© 2026 Xinyu Shao · Built for research and academic communication.</footer>
     </div>
-
-    <div class="content">
-        <h2>About Me</h2>
-        <p>I am a full-time Engineering Ph.D. student (2023 intake) at Tsinghua University (SIGS), jointly trained by Tsinghua and Huawei. I am fortunate to be advised by Prof. Xiu Li at the Institute of Data and Information.</p>
-        <p>My research lies at the intersection of <strong>Embodied AI</strong> and <strong>Robotics</strong>, with a primary focus on <strong>Generative Models</strong>, <strong>Vision-Language-Action (VLA) models</strong>, and <strong>World Models</strong>. I am particularly driven by the challenge of moving beyond traditional end-to-end VLA models by exploring decoupled perception-control architectures and pushing the boundaries of imitation learning in low-data regimes. Most recently, my research explores the paradigm shift from generative policies to <strong>Generative Representations</strong>, utilizing Flow Matching and Velocity Fields as zero-shot kinematic priors for highly precise, long-horizon manipulations.</p>
-
-        <h2>Recent News</h2>
-        <ul class="news-list">
-            <li><span class="date-badge">[Sep 2024]</span> Joined Huawei 2012 Lab (Central Software Institute) to work on the "Network Brain" embodied intelligence project.</li>
-            <li><span class="date-badge">[Sep 2023]</span> Started my Ph.D. journey at Tsinghua University.</li>
-        </ul>
-
-        <h2>Experience</h2>
-        <ul class="exp-list">
-            <li>
-                <strong>Embodied AI Algorithm Researcher</strong> (Sep 2024 – Present)<br>
-                <em>Decision Reasoning Lab, Central Software Institute, Huawei 2012 Lab</em><br>
-                Core contributor to the "Network Brain" embodied AI project. Spearheaded the design of a decoupled perception-control architecture. Bridged the full closed-loop pipeline from model training to physical dual-arm real-world deployment, breaking the generalization bottlenecks of end-to-end models to achieve long-horizon complex flexible manipulations (e.g., garment folding, cup stacking).
-            </li>
-        </ul>
-
-        <h2>Publications & Preprints</h2>
-        
-        <div class="publication">
-            <div class="pub-title">Decoupling Semantics and Geometric Grounding: Spatial Visual Prompts for Language-Conditioned Imitation Learning</div>
-            <div class="pub-authors"><strong>Xinyu Shao</strong>, et al.</div>
-            <div class="pub-venue">Under Review at IROS 2026</div>
-            <div class="tags">
-                <span>Imitation Learning</span> <span>Target Disambiguation</span> <span>Feature-Level Fusion</span>
-            </div>
-        </div>
-
-        <div class="publication">
-            <div class="pub-title"><a href="https://arxiv.org/abs/2510.10912" target="_blank">More than A Point: Capturing Uncertainty with Adaptive Affordance Heatmaps for Spatial Grounding in Robotic Tasks</a></div>
-            <div class="pub-authors"><strong>Xinyu Shao</strong>, et al.</div>
-            <div class="pub-venue">Under Review at IEEE Robotics and Automation Letters (RA-L)</div>
-            <div class="tags">
-                <span class="link-tag"><a href="https://arxiv.org/abs/2510.10912" target="_blank">[arXiv]</a></span>
-                <span>Dexterous Manipulation</span> <span>Pose Planning</span> 
-            </div>
-        </div>
-
-        <div class="publication">
-            <div class="pub-title"><a href="https://arxiv.org/abs/2511.00833" target="_blank">Linear Differential Vision Transformer: Learning Visual Contrasts via Pairwise Differentials</a></div>
-            <div class="pub-authors"><strong>Xinyu Shao</strong>, et al.</div>
-            <div class="pub-venue">NeurIPS 2025</div>
-            <div class="tags">
-                <span class="link-tag"><a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119578" target="_blank">[NeurIPS 2025]</a></span>
-                <span>Vision Transformer</span> <span>Representation Learning</span>
-            </div>
-        </div>
-
-        <div class="publication">
-            <div class="pub-title"><a href="https://arxiv.org/abs/2502.17100" target="_blank">Generative Models in Decision Making: A Survey</a></div>
-            <div class="pub-authors"><strong>Xinyu Shao</strong>, et al.</div>
-            <div class="pub-venue">Under Review at IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</div>
-            <div class="tags">
-                <span class="link-tag"><a href="https://arxiv.org/abs/2502.17100" target="_blank">[arXiv]</a></span>
-                <span>Survey</span> <span>Generative Models</span> <span>Decision Making</span>
-            </div>
-        </div>
-
-        <h2>Education</h2>
-        <ul class="edu-list">
-            <li>
-                <strong>Ph.D. in Electronic Information</strong> (Sep 2023 – Present)<br>
-                Tsinghua University (Shenzhen International Graduate School)<br>
-                <em>GPA: 3.86/4.0 | Recipient of the Tsinghua University Comprehensive Scholarship</em>
-            </li>
-            <li>
-                <strong>B.Eng. in Information Engineering</strong> (Sep 2019 – Jun 2023)<br>
-                Nanjing University of Aeronautics and Astronautics<br>
-                <em>GPA: 4.3/5.0 | Honors: Outstanding Graduate, Alumni Scholarship</em>
-            </li>
-        </ul>
-        
-        <footer style="margin-top: 3rem; text-align: center; color: #777; font-size: 0.9rem; border-top: 1px solid #eaeaea; padding-top: 1rem;">
-            &copy; 2026 Xinyu Shao. All rights reserved.
-        </footer>
-    </div>
-
 </body>
 </html>
