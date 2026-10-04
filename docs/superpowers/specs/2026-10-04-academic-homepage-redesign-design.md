@@ -49,12 +49,14 @@
 
 ### 3. News
 
-在 About 后直接放置 `🔥 News`，使用紧凑的日期—事件列表或表格。目前至少保留现有两条动态：
+在 About 后直接放置 `🔥 News`，使用紧凑的日期—事件列表或表格。News 按实际时间顺序保留并补充以下动态：
 
-- 2026.09：`More than A Point` accepted at CoRL 2026。
 - 2025.09：`Linear Differential Vision Transformer` accepted at NeurIPS 2025。
+- 2026.09：`More than A Point` accepted at CoRL 2026。
+- 2026.09：`Beyond Video Generation: Exploring Latent Interaction Priors from Frozen Video World Models for Robot Learning` accepted at the NeurIPS 2026 Workshop: Robot Learning with World Models: Capabilities, Frontiers, and Challenges。
+- 2026.09：`RASR: Range-Aware Scale Recovery for Metric UAV Navigation` accepted at the ACM MM 2026 Workshop UAVM。
 
-不编造尚未提供的 `2026.xx ICRA submission`；如用户后续确认该事件，再加入对应条目。
+论文标题的链接规则如下：已有 arXiv 链接的标题可以链接到 arXiv；当前没有可用链接的 workshop 条目只显示标题和会议信息，不臆造链接。暂不把成果清单中的 LIP、MATS、ResCue 等投稿条目加入 News 或 Selected Publications，等待用户后续确认公开状态。
 
 ### 4. Selected Publications
 
