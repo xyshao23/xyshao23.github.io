@@ -181,6 +181,13 @@ h3 {
     line-height: 1.65;
 }
 
+.research-context {
+    max-width: 690px;
+    margin: 0 0 1.35rem;
+    font-size: 0.94rem;
+    line-height: 1.58;
+}
+
 .academic-intro h2 {
     margin-top: 1.45rem;
     padding: 0;
