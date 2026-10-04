@@ -3,167 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Xinyu Shao is a Ph.D. student at Tsinghua University working on embodied AI, robot learning, VLA policies, and video world models.">
-    <title>Xinyu Shao | Embodied AI &amp; Robot Learning</title>
+    <meta name="description" content="Xinyu Shao is a Ph.D. student at Tsinghua University working on robot learning, embodied intelligence, VLA policies, and generative world models.">
+    <title>Xinyu Shao | Robot Learning &amp; Embodied Intelligence</title>
     <link rel="canonical" href="https://xyshao23.github.io/">
     <link rel="alternate" hreflang="en" href="https://xyshao23.github.io/">
     <link rel="alternate" hreflang="zh-CN" href="https://xyshao23.github.io/zh.html">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="academic-home">
     <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <div class="site-shell">
-        <header>
-            <div class="topbar">
-                <a class="brand" href="index.html">Xinyu Shao</a>
-                <nav class="top-nav" aria-label="Primary navigation">
-                    <a href="#experience">Experience</a>
-                    <a href="#publications">Publications</a>
-                    <a href="#education">Education</a>
-                    <span class="language-switch" aria-label="Language switch">
-                        <span class="active" aria-current="page">English</span>
-                        <a href="zh.html" lang="zh-CN">中文</a>
-                    </span>
-                </nav>
-            </div>
+    <header class="academic-nav">
+        <div class="academic-nav__inner">
+            <a class="academic-brand" href="#about">Xinyu Shao</a>
+            <nav class="academic-nav__links" aria-label="Primary navigation">
+                <a href="#about">About</a>
+                <a href="#news">News</a>
+                <a href="#publications">Publications</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#awards">Awards</a>
+                <a href="zh.html" lang="zh-CN">中文</a>
+            </nav>
+        </div>
+    </header>
 
-            <div class="hero">
-                <img src="profile.jpg" alt="Portrait of Xinyu Shao" class="profile-img">
-                <div>
-                    <p class="eyebrow">Embodied AI · Robot Learning · Generative Models</p>
-                    <h1>Xinyu Shao <span lang="zh-CN">邵新宇</span></h1>
-                    <p class="role-line">Ph.D. Student at Tsinghua University · Embodied AI Research Intern at Huawei 2012 Lab</p>
-                    <p class="hero-summary">
-                        I study data-efficient robot learning, with a focus on vision-language-action policies, spatial grounding, offline reinforcement learning, and reusable representations from frozen video world models. My work spans algorithm design, large-scale simulation, and closed-loop deployment on real robots.
-                    </p>
-                    <div class="contact-links">
-                        <a href="mailto:shaoxy23@mails.tsinghua.edu.cn">shaoxy23@mails.tsinghua.edu.cn</a>
+    <main id="main-content" class="academic-container">
+        <section id="about" class="academic-section academic-about" aria-labelledby="about-heading">
+            <h1 id="about-heading"><strong>Xinyu Shao</strong> <span lang="zh-CN">邵新宇</span></h1>
+            <div class="academic-about__grid">
+                <div class="academic-intro">
+                    <p class="identity-line"><strong>Ph.D. Student</strong> @ Tsinghua University<br>
+                        <strong>Research Intern</strong> @ Huawei Noah's Ark Lab / 2012 Labs</p>
+                    <p class="research-statement">I work on robot learning and embodied intelligence, with a focus on VLA policies, generative world models, and data-efficient robot manipulation.</p>
+
+                    <h2>Research Interests</h2>
+                    <ul class="research-interests">
+                        <li><strong>Vision-Language-Action Models</strong></li>
+                        <li><strong>World Models for Robot Learning</strong></li>
+                        <li><strong>Generative Policies / Diffusion Policies</strong></li>
+                        <li><strong>Spatial Grounding &amp; Affordance</strong></li>
+                        <li><strong>Offline Reinforcement Learning and Sim-to-Real Transfer</strong></li>
+                    </ul>
+
+                    <div class="academic-social" aria-label="Contact links">
+                        <a href="mailto:shaoxy23@mails.tsinghua.edu.cn">Email</a>
                         <a href="https://scholar.google.com/citations?user=i7L7Gd4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
                         <a href="https://github.com/xyshao23" target="_blank" rel="noopener noreferrer">GitHub</a>
                     </div>
                 </div>
+                <div class="academic-profile">
+                    <img src="profile.jpg" alt="Portrait of Xinyu Shao">
+                </div>
             </div>
-        </header>
+        </section>
 
-        <main id="main-content">
-            <section class="section" aria-labelledby="about-heading">
-                <div class="section-heading">
-                    <h2 id="about-heading">Research Profile</h2>
-                    <span class="section-kicker">Tsinghua SIGS · Huawei 2012 Lab</span>
+        <section id="news" class="academic-section" aria-labelledby="news-heading">
+            <h2 id="news-heading">🔥 News</h2>
+            <div class="news-list">
+                <div class="news-item">
+                    <time datetime="2025-09">2025.09</time>
+                    <p>One paper, <a href="https://arxiv.org/abs/2511.00833" target="_blank" rel="noopener noreferrer">Linear Differential Vision Transformer: Learning Visual Contrasts via Pairwise Differentials</a>, was accepted to NeurIPS 2025.</p>
                 </div>
-                <p>
-                    I am a Ph.D. student in Electronic Information at Tsinghua University (SIGS), advised by Prof. Xiu Li. My research connects pretrained generative models with physical decision making: grounding language into actionable spatial representations, improving diffusion-based policies under limited demonstrations, and extracting compact task-conditioned priors from frozen video models.
-                </p>
-            </section>
+                <div class="news-item">
+                    <time datetime="2026-09">2026.09</time>
+                    <p>Our paper, <a href="https://arxiv.org/abs/2510.10912" target="_blank" rel="noopener noreferrer">More than A Point: Capturing Uncertainty with Adaptive Affordance Heatmaps for Spatial Grounding in Robotic Tasks</a>, was accepted at CoRL 2026.</p>
+                </div>
+                <div class="news-item">
+                    <time datetime="2026-09">2026.09</time>
+                    <p>One paper, <strong>Beyond Video Generation: Exploring Latent Interaction Priors from Frozen Video World Models for Robot Learning</strong>, was accepted to the NeurIPS 2026 Workshop: Robot Learning with World Models: Capabilities, Frontiers, and Challenges.</p>
+                </div>
+                <div class="news-item">
+                    <time datetime="2026-09">2026.09</time>
+                    <p>One paper, <a href="https://arxiv.org/abs/2607.09815" target="_blank" rel="noopener noreferrer">RASR: Range-Aware Scale Recovery for Metric UAV Navigation</a>, was accepted at the ACM MM 2026 Workshop UAVM.</p>
+                </div>
+            </div>
+        </section>
 
-            <section class="section" aria-labelledby="news-heading">
-                <div class="section-heading">
-                    <h2 id="news-heading">Recent News</h2>
+        <section id="publications" class="academic-section" aria-labelledby="publications-heading">
+            <div class="section-title-row">
+                <h2 id="publications-heading">Selected Publications</h2>
+                <a class="section-note" href="https://scholar.google.com/citations?user=i7L7Gd4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Full publication list → Google Scholar</a>
+            </div>
+            <ol class="publications-list">
+                <li class="publication-item">
+                    <div class="publication-badges"><span class="publication-badge">CoRL</span><span class="publication-badge accepted">Accepted</span></div>
+                    <div class="publication-content">
+                        <h3><a href="https://arxiv.org/abs/2510.10912" target="_blank" rel="noopener noreferrer">More than A Point: Capturing Uncertainty with Adaptive Affordance Heatmaps for Spatial Grounding in Robotic Tasks</a></h3>
+                        <p class="publication-authors"><u>Xinyu Shao</u>, Yanzhe Tang, Pengwei Xie, Kaiwen Zhou, Yuzheng Zhuang, Xingyue Quan, Jianye Hao, Long Zeng, Xiu Li</p>
+                        <p class="publication-venue"><em>CoRL</em>, 2026</p>
+                        <p class="publication-highlights">Represents spatial targets as continuous adaptive affordance heatmaps, improving robustness to perceptual noise and semantic ambiguity; achieves <strong>82% success</strong> in real-world manipulation.</p>
+                        <p class="publication-links"><a href="https://arxiv.org/abs/2510.10912" target="_blank" rel="noopener noreferrer">arXiv</a><span>Spatial Grounding</span><span>Affordance</span><span>Uncertainty</span></p>
+                    </div>
+                </li>
+
+                <li class="publication-item">
+                    <div class="publication-badges"><span class="publication-badge preprint">arXiv</span></div>
+                    <div class="publication-content">
+                        <h3><a href="https://arxiv.org/abs/2607.04652" target="_blank" rel="noopener noreferrer">KAM-WM: Kinematic Affordance Maps from Latent World Models for Robot Manipulation</a></h3>
+                        <p class="publication-authors"><u>Xinyu Shao</u>, Keru Zhou, Guowei Huang, Yajun Gao, Tongtong Cao, Xiu Li</p>
+                        <p class="publication-venue"><em>arXiv preprint</em>, 2026</p>
+                        <p class="publication-highlights">Queries a frozen flow-matching video model once to extract a task-conditioned kinematic affordance map, reaching <strong>90.6%</strong> on LIBERO and <strong>65.7%</strong> on RoboTwin 2.0 Easy.</p>
+                        <p class="publication-links"><a href="https://arxiv.org/abs/2607.04652" target="_blank" rel="noopener noreferrer">arXiv</a><span>Video World Models</span><span>Flow Matching</span><span>Robot Policy</span></p>
+                    </div>
+                </li>
+
+                <li class="publication-item">
+                    <div class="publication-badges"><span class="publication-badge preprint">arXiv</span></div>
+                    <div class="publication-content">
+                        <h3><a href="https://arxiv.org/abs/2502.17100" target="_blank" rel="noopener noreferrer">Generative Models in Decision Making: A Survey</a></h3>
+                        <p class="publication-authors"><u>Xinyu Shao</u>, Jianping Zhang, Haozhi Wang, Leo Maxime Brunswic, Kaiwen Zhou, Jiqian Dong, Kaiyang Guo, Zhitang Chen, Jun Wang, Jianye Hao, Xiu Li, Yinchuan Li</p>
+                        <p class="publication-venue"><em>arXiv preprint</em>, 2025</p>
+                        <p class="publication-highlights">Builds a function-centric taxonomy of generative decision-making methods—Controllers, Modelers, Optimizers, and Evaluators—within the Control-as-Inference framework.</p>
+                        <p class="publication-links"><a href="https://arxiv.org/abs/2502.17100" target="_blank" rel="noopener noreferrer">arXiv</a><span>Survey</span><span>Generative Models</span><span>Decision Making</span></p>
+                    </div>
+                </li>
+
+                <li class="publication-item">
+                    <div class="publication-badges"><span class="publication-badge preprint">arXiv</span></div>
+                    <div class="publication-content">
+                        <h3><a href="https://arxiv.org/abs/2606.25360" target="_blank" rel="noopener noreferrer">Decoupling Semantics and Geometric Grounding: Spatial Visual Prompts for Language-Conditioned Imitation Learning</a></h3>
+                        <p class="publication-authors">Yanzhe Tang, <u>Xinyu Shao</u>, Yuxuan Hu, Siyu Chen, Bowen Yang, Yajun Gao, Tongtong Cao, Xiu Li, Long Zeng</p>
+                        <p class="publication-venue"><em>arXiv preprint</em>, 2026</p>
+                        <p class="publication-highlights">Decouples spatial grounding from action generation by converting language into zero-shot geometric masks and injecting them as explicit spatial visual prompts.</p>
+                        <p class="publication-links"><a href="https://arxiv.org/abs/2606.25360" target="_blank" rel="noopener noreferrer">arXiv</a><span>Spatial Grounding</span><span>Imitation Learning</span><span>VLA</span></p>
+                    </div>
+                </li>
+
+                <li class="publication-item">
+                    <div class="publication-badges"><span class="publication-badge preprint">arXiv</span></div>
+                    <div class="publication-content">
+                        <h3><a href="https://arxiv.org/abs/2607.09815" target="_blank" rel="noopener noreferrer">RASR: Range-Aware Scale Recovery for Metric UAV Navigation</a></h3>
+                        <p class="publication-authors">Hongtao Liang, <u>Xinyu Shao</u>, Chenxu Wang, Yiyao Wan, Jiahuan Ji, Fangwei Ye, Fuhui Zhou, Qihui Wu</p>
+                        <p class="publication-venue"><em>arXiv preprint</em>, 2026</p>
+                        <p class="publication-highlights">Recovers metric distance and heading from frozen pairwise geometry using global calibration and range-aware residual correction for GNSS-denied UAV navigation.</p>
+                        <p class="publication-links"><a href="https://arxiv.org/abs/2607.09815" target="_blank" rel="noopener noreferrer">arXiv</a><span>UAV Navigation</span><span>Scale Recovery</span><span>3D Geometry</span></p>
+                    </div>
+                </li>
+
+                <li class="publication-item">
+                    <div class="publication-badges"><span class="publication-badge">NeurIPS</span><span class="publication-badge accepted">Accepted</span></div>
+                    <div class="publication-content">
+                        <h3><a href="https://arxiv.org/abs/2511.00833" target="_blank" rel="noopener noreferrer">Linear Differential Vision Transformer: Learning Visual Contrasts via Pairwise Differentials</a></h3>
+                        <p class="publication-authors">Yifan Pu, Jixuan Ying, Qixiu Li, Tianzhu Ye, Dongchen Han, Xiaochen Wang, Ziyi Wang, <u>Xinyu Shao</u>, Gao Huang, Xiu Li</p>
+                        <p class="publication-venue"><em>NeurIPS</em>, 2025</p>
+                        <p class="publication-highlights">Introduces Visual-Contrast Attention, using pooled positive and negative token streams to improve discriminative modeling without additional FLOPs.</p>
+                        <p class="publication-links"><a href="https://arxiv.org/abs/2511.00833" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119578" target="_blank" rel="noopener noreferrer">NeurIPS</a><span>Vision Transformer</span></p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <section id="experience" class="academic-section" aria-labelledby="experience-heading">
+            <h2 id="experience-heading">Experience</h2>
+            <div class="timeline-item">
+                <div class="timeline-heading">
+                    <h3>Embodied AI Algorithm Research Intern</h3>
+                    <time datetime="2025-08">Aug 2025 – Present</time>
                 </div>
-                <ul class="news-list">
-                    <li><span class="date-badge">Sep 2026</span><span><strong>More than A Point</strong> was accepted at CoRL 2026.</span></li>
-                    <li><span class="date-badge">Sep 2025</span><span><strong>Linear Differential Vision Transformer</strong> was accepted at NeurIPS 2025.</span></li>
+                <p class="organization">Large Model Algorithm Lab, Huawei 2012 Lab</p>
+                <ul class="detail-list">
+                    <li>Collected, cleaned, annotated, and trained on <strong>2,000 real-world trajectories across five tasks</strong> on the ALOHA bimanual platform; adapted OpenVLA, π<sub>0</sub>, and π<sub>0.5</sub> fine-tuning pipelines.</li>
+                    <li>Developed an offline reinforcement fine-tuning pipeline using SAM2/DINO-based cloth-coverage rewards and <strong>77 human-intervention trajectories</strong>, improving real-world cloth-flattening success from <strong>30% to 65%</strong>.</li>
+                    <li>Built a single-step latent interaction prior from a frozen Wan 2.2 video model and integrated eight compressed LIP tokens into downstream policies. Evaluation reached <strong>90.6% on LIBERO</strong> and <strong>65.7% across 50 RoboTwin 2.0 tasks</strong>.</li>
                 </ul>
-            </section>
+            </div>
+        </section>
 
-            <section class="section" id="experience" aria-labelledby="experience-heading">
-                <div class="section-heading">
-                    <h2 id="experience-heading">Research Experience</h2>
-                    <span class="section-kicker">Real-world manipulation · Policy learning</span>
-                </div>
-                <ul class="experience-list">
-                    <li class="experience-card">
-                        <div class="experience-head">
-                            <h3>Embodied AI Algorithm Research Intern</h3>
-                            <time datetime="2025-08">Aug 2025 – Present</time>
-                        </div>
-                        <p class="organization">Large Model Algorithm Lab, Huawei 2012 Lab</p>
-                        <ul class="detail-list">
-                            <li>Collected, cleaned, annotated, and trained on <strong>2,000 real-world trajectories across five tasks</strong> on the ALOHA bimanual platform; adapted OpenVLA, π<sub>0</sub>, and π<sub>0.5</sub> fine-tuning pipelines.</li>
-                            <li>Developed an offline reinforcement fine-tuning pipeline using SAM2/DINO-based cloth-coverage rewards and <strong>77 human-intervention trajectories</strong>, improving real-world cloth-flattening success from <strong>30% to 65%</strong>.</li>
-                            <li>Built a single-step latent interaction prior from a frozen Wan 2.2 video model and integrated eight compressed LIP tokens into downstream policies. Evaluation reached <strong>90.6% on LIBERO</strong> and <strong>65.7% across 50 RoboTwin 2.0 tasks</strong>.</li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
+        <section id="education" class="academic-section" aria-labelledby="education-heading">
+            <h2 id="education-heading">Education</h2>
+            <ul class="compact-list">
+                <li><strong>Ph.D. Student in Electronic Information</strong>, Tsinghua University, Shenzhen International Graduate School <span class="muted">(Sep 2023 – Present)</span><br>GPA 3.86/4.0</li>
+                <li><strong>B.Eng. in Information Engineering, Honors Program</strong>, Nanjing University of Aeronautics and Astronautics <span class="muted">(Sep 2019 – Jun 2023)</span><br>GPA 4.3/5.0 · Outstanding Graduate</li>
+            </ul>
+        </section>
 
-            <section class="section" id="publications" aria-labelledby="publications-heading">
-                <div class="section-heading">
-                    <h2 id="publications-heading">Publications</h2>
-                    <span class="section-kicker">Public arXiv works · First-author work listed first</span>
-                </div>
-                <div class="publication-list">
-                    <article class="publication featured">
-                        <h3 class="pub-title"><a href="https://arxiv.org/abs/2510.10912" target="_blank" rel="noopener noreferrer">More than A Point: Capturing Uncertainty with Adaptive Affordance Heatmaps for Spatial Grounding in Robotic Tasks</a></h3>
-                        <p class="pub-meta"><strong>Xinyu Shao</strong>, Yanzhe Tang, Pengwei Xie, Kaiwen Zhou, Yuzheng Zhuang, Xingyue Quan, Jianye Hao, Long Zeng, Xiu Li <span class="status accepted">CoRL 2026 · Accepted</span></p>
-                        <p class="pub-description">Represents spatial targets as continuous adaptive affordance heatmaps, improving robustness to perceptual noise and semantic ambiguity; achieves <strong>82% success</strong> in real-world manipulation.</p>
-                        <div class="tags"><a class="tag link" href="https://arxiv.org/abs/2510.10912" target="_blank" rel="noopener noreferrer">arXiv</a><span class="tag">Spatial Grounding</span><span class="tag">Affordance</span><span class="tag">Uncertainty</span></div>
-                    </article>
+        <section id="awards" class="academic-section" aria-labelledby="awards-heading">
+            <h2 id="awards-heading">Awards</h2>
+            <ul class="compact-list">
+                <li>Tsinghua University Comprehensive Scholarship, Second Prize</li>
+                <li>Alumni Scholarship, Nanjing University of Aeronautics and Astronautics</li>
+            </ul>
+        </section>
+    </main>
 
-                    <article class="publication">
-                        <h3 class="pub-title"><a href="https://arxiv.org/abs/2607.04652" target="_blank" rel="noopener noreferrer">KAM-WM: Kinematic Affordance Maps from Latent World Models for Robot Manipulation</a></h3>
-                        <p class="pub-meta"><strong>Xinyu Shao</strong>, Keru Zhou, Guowei Huang, Yajun Gao, Tongtong Cao, Xiu Li <span class="status">arXiv · Preprint</span></p>
-                        <p class="pub-description">Queries a frozen flow-matching video model once to extract a task-conditioned kinematic affordance map, reaching <strong>90.6%</strong> on LIBERO and <strong>65.7%</strong> on RoboTwin 2.0 Easy.</p>
-                        <div class="tags"><a class="tag link" href="https://arxiv.org/abs/2607.04652" target="_blank" rel="noopener noreferrer">arXiv</a><span class="tag">Video World Models</span><span class="tag">Flow Matching</span><span class="tag">Robot Policy</span></div>
-                    </article>
-
-                    <article class="publication">
-                        <h3 class="pub-title"><a href="https://arxiv.org/abs/2502.17100" target="_blank" rel="noopener noreferrer">Generative Models in Decision Making: A Survey</a></h3>
-                        <p class="pub-meta"><strong>Xinyu Shao</strong>, Jianping Zhang, Haozhi Wang, Leo Maxime Brunswic, Kaiwen Zhou, Jiqian Dong, Kaiyang Guo, Zhitang Chen, Jun Wang, Jianye Hao, Xiu Li, Yinchuan Li <span class="status">arXiv · Preprint</span></p>
-                        <p class="pub-description">Builds a function-centric taxonomy of generative decision-making methods—Controllers, Modelers, Optimizers, and Evaluators—within the Control-as-Inference framework.</p>
-                        <div class="tags"><a class="tag link" href="https://arxiv.org/abs/2502.17100" target="_blank" rel="noopener noreferrer">arXiv</a><span class="tag">Survey</span><span class="tag">Generative Models</span><span class="tag">Decision Making</span></div>
-                    </article>
-
-                    <article class="publication">
-                        <h3 class="pub-title"><a href="https://arxiv.org/abs/2606.25360" target="_blank" rel="noopener noreferrer">Decoupling Semantics and Geometric Grounding: Spatial Visual Prompts for Language-Conditioned Imitation Learning</a></h3>
-                        <p class="pub-meta">Yanzhe Tang, <strong>Xinyu Shao</strong>, Yuxuan Hu, Siyu Chen, Bowen Yang, Yajun Gao, Tongtong Cao, Xiu Li, Long Zeng <span class="status">arXiv · Preprint</span></p>
-                        <p class="pub-description">Decouples spatial grounding from action generation by converting language into zero-shot geometric masks and injecting them as explicit spatial visual prompts.</p>
-                        <div class="tags"><a class="tag link" href="https://arxiv.org/abs/2606.25360" target="_blank" rel="noopener noreferrer">arXiv</a><span class="tag">Spatial Grounding</span><span class="tag">Imitation Learning</span><span class="tag">VLA</span></div>
-                    </article>
-
-                    <article class="publication">
-                        <h3 class="pub-title"><a href="https://arxiv.org/abs/2607.09815" target="_blank" rel="noopener noreferrer">RASR: Range-Aware Scale Recovery for Metric UAV Navigation</a></h3>
-                        <p class="pub-meta">Hongtao Liang, <strong>Xinyu Shao</strong>, Chenxu Wang, Yiyao Wan, Jiahuan Ji, Fangwei Ye, Fuhui Zhou, Qihui Wu <span class="status">arXiv · Preprint</span></p>
-                        <p class="pub-description">Recovers metric distance and heading from frozen pairwise geometry using global calibration and range-aware residual correction for GNSS-denied UAV navigation.</p>
-                        <div class="tags"><a class="tag link" href="https://arxiv.org/abs/2607.09815" target="_blank" rel="noopener noreferrer">arXiv</a><span class="tag">UAV Navigation</span><span class="tag">Scale Recovery</span><span class="tag">3D Geometry</span></div>
-                    </article>
-
-                    <article class="publication">
-                        <h3 class="pub-title"><a href="https://arxiv.org/abs/2511.00833" target="_blank" rel="noopener noreferrer">Linear Differential Vision Transformer: Learning Visual Contrasts via Pairwise Differentials</a></h3>
-                        <p class="pub-meta">Yifan Pu, Jixuan Ying, Qixiu Li, Tianzhu Ye, Dongchen Han, Xiaochen Wang, Ziyi Wang, <strong>Xinyu Shao</strong>, Gao Huang, Xiu Li <span class="status accepted">NeurIPS 2025 · Accepted</span></p>
-                        <p class="pub-description">Introduces Visual-Contrast Attention, using pooled positive and negative token streams to improve discriminative modeling without additional FLOPs.</p>
-                        <div class="tags"><a class="tag link" href="https://arxiv.org/abs/2511.00833" target="_blank" rel="noopener noreferrer">arXiv</a><a class="tag link" href="https://neurips.cc/virtual/2025/loc/san-diego/poster/119578" target="_blank" rel="noopener noreferrer">NeurIPS</a><span class="tag">Vision Transformer</span></div>
-                    </article>
-                </div>
-            </section>
-
-            <section class="section" id="education" aria-labelledby="education-heading">
-                <div class="section-heading">
-                    <h2 id="education-heading">Education</h2>
-                </div>
-                <ul class="education-list">
-                    <li class="education-card">
-                        <div class="education-head">
-                            <h3>Ph.D. Student in Electronic Information</h3>
-                            <time datetime="2023-09">Sep 2023 – Present</time>
-                        </div>
-                        <p>Tsinghua University, Shenzhen International Graduate School · GPA 3.86/4.0</p>
-                        <p>Tsinghua University Comprehensive Scholarship, Second Prize</p>
-                    </li>
-                    <li class="education-card">
-                        <div class="education-head">
-                            <h3>B.Eng. in Information Engineering, Honors Program</h3>
-                            <time>Sep 2019 – Jun 2023</time>
-                        </div>
-                        <p>Nanjing University of Aeronautics and Astronautics · GPA 4.3/5.0</p>
-                        <p>Outstanding Graduate · Alumni Scholarship</p>
-                    </li>
-                </ul>
-            </section>
-        </main>
-
-        <footer>© 2026 Xinyu Shao · Built for research and academic communication.</footer>
-    </div>
+    <footer class="academic-footer">© 2026 Xinyu Shao · Built for research and academic communication.</footer>
 </body>
 </html>
