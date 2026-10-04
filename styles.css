@@ -260,13 +260,6 @@ h3 {
     margin: 0;
 }
 
-.research-overview {
-    max-width: 760px;
-    margin: -0.25rem 0 1.55rem;
-    color: var(--muted);
-    font-size: 1.03rem;
-}
-
 .research-list {
     display: flex;
     flex-direction: column;
@@ -277,7 +270,7 @@ h3 {
     display: grid;
     grid-template-columns: minmax(260px, 0.88fr) minmax(0, 1.12fr);
     gap: 2rem;
-    align-items: center;
+    align-items: start;
     padding-bottom: 1.75rem;
     border-bottom: 1px solid var(--border);
 }
@@ -288,6 +281,7 @@ h3 {
 }
 
 .research-figure {
+    min-width: 0;
     overflow: hidden;
     border: 1px solid var(--border);
     border-radius: 5px;
@@ -297,6 +291,7 @@ h3 {
 .research-figure img {
     display: block;
     width: 100%;
+    max-width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: contain;
     background: #ffffff;
