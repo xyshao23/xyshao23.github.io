@@ -109,7 +109,7 @@ a:focus-visible {
 
 .academic-section {
     padding-top: 2.45rem;
-    scroll-margin-top: calc(var(--nav-height) + 1rem);
+    scroll-margin-top: calc(var(--nav-height) + 2rem);
 }
 
 .academic-about {
